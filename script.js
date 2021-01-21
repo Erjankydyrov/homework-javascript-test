@@ -61,6 +61,11 @@ if (question11 == 1) {
     allPoints = allPoints + 1;
 }
 
+let question12 = +prompt(`Кого собирает Артас в первой главе кампании? Варианты ответов: 1) Паладинов Серебряной Длани 2) Разрушителей чар Кель-Таласа 3) Послушников культа Проклятых Ответ запишите номером варианта.`);
+if (question12 == 3) {
+    allPoints = allPoints + 1;
+}
+
 alert (`You got ${allPoints} points`);
 
 // variant1
