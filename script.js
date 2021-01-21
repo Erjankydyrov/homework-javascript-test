@@ -7,6 +7,9 @@ let question1 = +prompt(`В каком году вышла Warcraft III: The Fro
 if (question1 == 2) {
     allPoints = points + 1;
 }
+else {
+    allPoints = 0;
+}
 
 let question2 = +prompt(`Кампания какой из рас идет первой? Варианты ответов: 1) Кампания Нежити 2) Кампания Орды 3) Кампания Ночных Эльфов Ответ запишите номером варианта.`);
 if (question2 == 3) {
