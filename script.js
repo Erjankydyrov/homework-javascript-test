@@ -56,6 +56,11 @@ if (question10 == 3) {
     allPoints = allPoints + 1;
 }
 
+let question11 = +prompt(`Что сделал Артас вернувшись домой? Варианты ответов: 1) Убил Отца 2) Восстановил Стратхольм 3) Создал Алый орден Ответ запишите номером варианта.`);
+if (question11 == 1) {
+    allPoints = allPoints + 1;
+}
+
 alert (`You got ${allPoints} points`);
 
 // variant1
