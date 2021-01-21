@@ -71,6 +71,11 @@ if (question13 == 1) {
     allPoints = allPoints + 1;
 }
 
+let question14 = +prompt(`Что сделал Артас с Сильваной? Варианты ответов: 1) Убил 2) Убил и воскресил в качестве баньши 3) Убил, воскресил и снова убил Ответ запишите номером варианта.`);
+if (question14 == 2) {
+    allPoints = allPoints + 1;
+}
+
 alert (`You got ${allPoints} points`);
 
 // variant1
