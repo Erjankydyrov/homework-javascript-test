@@ -96,6 +96,11 @@ if (question18 == 3) {
     allPoints = allPoints + 1;
 }
 
+let question19 = +prompt(`Какой вид демонов надзирает за плетью? Варианты ответов: 1) Эредары 2) Суккубы 3) Повелители ужаса Ответ запишите номером варианта.`);
+if (question19 == 3) {
+    allPoints = allPoints + 1;
+}
+
 alert (`You got ${allPoints} points`);
 
 // variant1
