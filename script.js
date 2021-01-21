@@ -41,6 +41,11 @@ if (question7 == 1) {
     allPoints = allPoints + 1;
 }
 
+let question8 = +prompt(`Чем закончился сюжет Warcraft III: The Frozen Throne? Варианты ответов: 1) Иллидан убил Артаса 2) Маэв поймала Илидана 3) Артас стал Королем Личем Ответ запишите номером варианта.`);
+if (question8 == 3) {
+    allPoints = allPoints + 1;
+}
+
 alert (`You got ${allPoints} points`);
 
 // variant1
