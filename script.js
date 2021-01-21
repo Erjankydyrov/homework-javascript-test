@@ -36,6 +36,11 @@ if (question6 == 3) {
     allPoints = allPoints + 1;
 }
 
+let question7 = +prompt(`Кто из новых героев умеет призывать феникса? Варианты ответов: 1) Чародей крови 2) Ловец Духов 3) Повелитель могил Ответ запишите номером варианта.`);
+if (question7 == 1) {
+    allPoints = allPoints + 1;
+}
+
 alert (`You got ${allPoints} points`);
 
 // variant1
