@@ -51,7 +51,10 @@ if (question9 == 2) {
     allPoints = allPoints + 1;
 }
 
-
+let question10 = +prompt(`Какому современному жанру компьютерных игр соответствует секретная миссия? Варианты ответов: 1) Шутер 2) Гонки 3) Тауэр Дэфенс Ответ запишите номером варианта.`);
+if (question10 == 3) {
+    allPoints = allPoints + 1;
+}
 
 alert (`You got ${allPoints} points`);
 
