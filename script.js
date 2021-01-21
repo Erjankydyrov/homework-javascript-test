@@ -91,6 +91,11 @@ if (question17 == 1) {
     allPoints = allPoints + 1;
 }
 
+let question18 = +prompt(`Кого призвал Кел'Тузад в 8 главе? Варианты ответов: 1) Кил'Джедена 2) Саргераса 3) Архимонда Ответ запишите номером варианта.`);
+if (question18 == 3) {
+    allPoints = allPoints + 1;
+}
+
 alert (`You got ${allPoints} points`);
 
 // variant1
