@@ -26,6 +26,11 @@ if (question4 == 2) {
     allPoints = allPoints + 1;
 }
 
+let question5 = +prompt(`Кто сопровождал Артаса на пути к ледяному трону? Варианты ответов: 1) Маэв 2) Иллидан 3) Анубарак Ответ запишите номером варианта.`);
+if (question5 == 3) {
+    allPoints = allPoints + 1;
+}
+
 alert (`You got ${allPoints} points`);
 
 // variant1
