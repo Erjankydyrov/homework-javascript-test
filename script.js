@@ -66,6 +66,11 @@ if (question12 == 3) {
     allPoints = allPoints + 1;
 }
 
+let question13 = +prompt(`Кто руководит обороной Кель-Таласа от вторжения Плети? Варианты ответов: 1) Сильвана Ветрокрылая 2) Утер Светоносный 3) Лортемар Терон Ответ запишите номером варианта.`);
+if (question13 == 1) {
+    allPoints = allPoints + 1;
+}
+
 alert (`You got ${allPoints} points`);
 
 // variant1
