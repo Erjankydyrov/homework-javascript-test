@@ -76,6 +76,11 @@ if (question14 == 2) {
     allPoints = allPoints + 1;
 }
 
+let question15 = +prompt(`С какой целью Плеть напала на Кель-Талас? Варианты ответов: 1) Захватить книгу Медива 2) Воскресить некроманта Кел'Тузада 3) Убить Верховного Мага Антонидоса Ответ запишите номером варианта.`);
+if (question15 == 2) {
+    allPoints = allPoints + 1;
+}
+
 alert (`You got ${allPoints} points`);
 
 // variant1
