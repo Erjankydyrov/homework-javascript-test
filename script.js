@@ -46,6 +46,13 @@ if (question8 == 3) {
     allPoints = allPoints + 1;
 }
 
+let question9 = +prompt(`В кампании какой из рас присутствует секретная миссия? Варианты ответов: 1) Нежить 2) Альянс 3) Ночные Эльфы Ответ запишите номером варианта.`);
+if (question9 == 2) {
+    allPoints = allPoints + 1;
+}
+
+
+
 alert (`You got ${allPoints} points`);
 
 // variant1
