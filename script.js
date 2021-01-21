@@ -101,6 +101,11 @@ if (question19 == 3) {
     allPoints = allPoints + 1;
 }
 
+let question20 = +prompt(`Артас в течение кампании Warcraft III успел совершить много неоднозначных поступков — например, сжег город. Какой? Варианты ответов: 1) Стратхольм 2) Орибос 3) Стромгард Ответ запишите номером варианта.`);
+if (question20 == 1) {
+    allPoints = allPoints + 1;
+}
+
 alert (`You got ${allPoints} points`);
 
 // variant1
