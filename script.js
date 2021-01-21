@@ -31,6 +31,11 @@ if (question5 == 3) {
     allPoints = allPoints + 1;
 }
 
+let question6 = +prompt(`Кто возглавлял силы Альянса на руинах Лордерона? Варианты ответов: 1) Дэтэрок 2) Сильвана 3) Гаритос Ответ запишите номером варианта.`);
+if (question6 == 3) {
+    allPoints = allPoints + 1;
+}
+
 alert (`You got ${allPoints} points`);
 
 // variant1
