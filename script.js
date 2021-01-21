@@ -86,6 +86,11 @@ if (question16 == 1) {
     allPoints = allPoints + 1;
 }
 
+let question17 = +prompt(`Что понадобилось Плети в Даларане? Варианты ответов: 1) Книга Медива 2) Прах Кель'Тузеда 3) Солнечный Колодец Ответ запишите номером варианта.`);
+if (question17 == 1) {
+    allPoints = allPoints + 1;
+}
+
 alert (`You got ${allPoints} points`);
 
 // variant1
