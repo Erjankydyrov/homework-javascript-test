@@ -10,12 +10,12 @@ if (question1 == 2) {
 
 let question2 = +prompt(`Кампания какой из рас идет первой? Варианты ответов: 1) Кампания Нежити 2) Кампания Орды 3) Кампания Ночных Эльфов Ответ запишите номером варианта.`);
 if (question2 == 3) {
-    allPoints = points + 1;
+    allPoints = allPoints + 1;
 }
 
 let question3 = +prompt(`За какую из не игровых фракций можно поиграть в 8 главе Кампании Ночных Эльфов? Варианты ответов: 1) За Наг 2) За Кобольдов 3) За Демонов Ответ запишите номером варианта.`);
 if (question3 == 1) {
-    allPoints = points + 1;
+    allPoints = allPoints + 1;
 }
 
 alert (`You got ${allPoints} points`);
