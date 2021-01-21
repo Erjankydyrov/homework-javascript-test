@@ -81,6 +81,11 @@ if (question15 == 2) {
     allPoints = allPoints + 1;
 }
 
+let question16 = +prompt(`Найм какого юнита становится доступен в седьмой главе? Варианты ответов: 1) Мясник 2) Труповозка 3) Вурдолак Ответ запишите номером варианта.`);
+if (question16 == 1) {
+    allPoints = allPoints + 1;
+}
+
 alert (`You got ${allPoints} points`);
 
 // variant1
