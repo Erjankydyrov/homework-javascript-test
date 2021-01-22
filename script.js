@@ -108,10 +108,10 @@ if (question20 == 1) {
 
 alert (`You got ${allPoints} points`);
 
-if (allPoints == 20) {
+if (allPoints == 65) {
     alert (`You are a true strategist!`);
 }
-else if (allPoints <= 16) {
+else if (allPoints <= 50) {
     alert (`Not bad, not bad`);
 }
 
