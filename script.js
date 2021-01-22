@@ -33,79 +33,86 @@ if (question5 == 3) {
 
 let question6 = +prompt(`Кто возглавлял силы Альянса на руинах Лордерона? Варианты ответов: 1) Дэтэрок 2) Сильвана 3) Гаритос Ответ запишите номером варианта.`);
 if (question6 == 3) {
-    allPoints = allPoints + 1;
+    allPoints = allPoints + 3;
 }
 
 let question7 = +prompt(`Кто из новых героев умеет призывать феникса? Варианты ответов: 1) Чародей крови 2) Ловец Духов 3) Повелитель могил Ответ запишите номером варианта.`);
 if (question7 == 1) {
-    allPoints = allPoints + 1;
+    allPoints = allPoints + 3;
 }
 
 let question8 = +prompt(`Чем закончился сюжет Warcraft III: The Frozen Throne? Варианты ответов: 1) Иллидан убил Артаса 2) Маэв поймала Илидана 3) Артас стал Королем Личем Ответ запишите номером варианта.`);
 if (question8 == 3) {
-    allPoints = allPoints + 1;
+    allPoints = allPoints + 3;
 }
 
 let question9 = +prompt(`В кампании какой из рас присутствует секретная миссия? Варианты ответов: 1) Нежить 2) Альянс 3) Ночные Эльфы Ответ запишите номером варианта.`);
 if (question9 == 2) {
-    allPoints = allPoints + 1;
+    allPoints = allPoints + 3;
 }
 
 let question10 = +prompt(`Какому современному жанру компьютерных игр соответствует секретная миссия? Варианты ответов: 1) Шутер 2) Гонки 3) Тауэр Дэфенс Ответ запишите номером варианта.`);
 if (question10 == 3) {
-    allPoints = allPoints + 1;
+    allPoints = allPoints + 3;
 }
 
 let question11 = +prompt(`Что сделал Артас вернувшись домой? Варианты ответов: 1) Убил Отца 2) Восстановил Стратхольм 3) Создал Алый орден Ответ запишите номером варианта.`);
 if (question11 == 1) {
-    allPoints = allPoints + 1;
+    allPoints = allPoints + 4;
 }
 
 let question12 = +prompt(`Кого собирает Артас в первой главе кампании? Варианты ответов: 1) Паладинов Серебряной Длани 2) Разрушителей чар Кель-Таласа 3) Послушников культа Проклятых Ответ запишите номером варианта.`);
 if (question12 == 3) {
-    allPoints = allPoints + 1;
+    allPoints = allPoints + 4;
 }
 
 let question13 = +prompt(`Кто руководит обороной Кель-Таласа от вторжения Плети? Варианты ответов: 1) Сильвана Ветрокрылая 2) Утер Светоносный 3) Лортемар Терон Ответ запишите номером варианта.`);
 if (question13 == 1) {
-    allPoints = allPoints + 1;
+    allPoints = allPoints + 4;
 }
 
 let question14 = +prompt(`Что сделал Артас с Сильваной? Варианты ответов: 1) Убил 2) Убил и воскресил в качестве баньши 3) Убил, воскресил и снова убил Ответ запишите номером варианта.`);
 if (question14 == 2) {
-    allPoints = allPoints + 1;
+    allPoints = allPoints + 4;
 }
 
 let question15 = +prompt(`С какой целью Плеть напала на Кель-Талас? Варианты ответов: 1) Захватить книгу Медива 2) Воскресить некроманта Кел'Тузада 3) Убить Верховного Мага Антонидоса Ответ запишите номером варианта.`);
 if (question15 == 2) {
-    allPoints = allPoints + 1;
+    allPoints = allPoints + 4;
 }
 
 let question16 = +prompt(`Найм какого юнита становится доступен в седьмой главе? Варианты ответов: 1) Мясник 2) Труповозка 3) Вурдолак Ответ запишите номером варианта.`);
 if (question16 == 1) {
-    allPoints = allPoints + 1;
+    allPoints = allPoints + 5;
 }
 
 let question17 = +prompt(`Что понадобилось Плети в Даларане? Варианты ответов: 1) Книга Медива 2) Прах Кель'Тузеда 3) Солнечный Колодец Ответ запишите номером варианта.`);
 if (question17 == 1) {
-    allPoints = allPoints + 1;
+    allPoints = allPoints + 5;
 }
 
 let question18 = +prompt(`Кого призвал Кел'Тузад в 8 главе? Варианты ответов: 1) Кил'Джедена 2) Саргераса 3) Архимонда Ответ запишите номером варианта.`);
 if (question18 == 3) {
-    allPoints = allPoints + 1;
+    allPoints = allPoints + 5;
 }
 
 let question19 = +prompt(`Какой вид демонов надзирает за плетью? Варианты ответов: 1) Эредары 2) Суккубы 3) Повелители ужаса Ответ запишите номером варианта.`);
 if (question19 == 3) {
-    allPoints = allPoints + 1;
+    allPoints = allPoints + 5;
 }
 
 let question20 = +prompt(`Артас в течение кампании Warcraft III успел совершить много неоднозначных поступков — например, сжег город. Какой? Варианты ответов: 1) Стратхольм 2) Орибос 3) Стромгард Ответ запишите номером варианта.`);
 if (question20 == 1) {
-    allPoints = allPoints + 1;
+    allPoints = allPoints + 5;
 }
 
 alert (`You got ${allPoints} points`);
+
+if (allPoints == 20) {
+    alert (`You are a true strategist!`);
+}
+else if (allPoints <= 16) {
+    alert (`Not bad, not bad`);
+}
 
 // variant1
